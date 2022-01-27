@@ -1,0 +1,38 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gilroy' sans-serif;
+    margin: 0;
+    padding: 0;
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    // position: relative;
+    max-width: 1167px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/partners';
+@import 'blocks/help';
+@import 'blocks/lorem';
+@import 'blocks/skills';
+@import 'blocks/request';
+@import 'blocks/contacts';
+@import 'blocks/media';

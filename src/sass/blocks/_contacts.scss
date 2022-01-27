@@ -1,0 +1,38 @@
+.contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    &__item2 {
+        color: $main-color;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        width: 181px;
+        margin-left: 40px;
+        margin-right: 45px;
+        a {
+            margin-top: 22px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: $main-color;
+        }
+    }
+    &__item3 {
+        width: 173px;
+        p {
+            color: $main-color;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    &__item5 {
+        width: 290px;
+    }
+}
+.contacts-copy {
+    text-align: center;
+    margin-top: 10px;
+}

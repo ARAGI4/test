@@ -1,0 +1,48 @@
+.help-block {
+    margin-top: 138px;
+    padding-left: 35px;
+}
+.help-wrapper {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 33px;
+    margin-right: 52px;
+}
+.interv-info {
+    margin-left: 105px;
+    height: 310px;
+    &__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__descr {
+        width: 310px;
+        margin-top: 27px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3C3C3C;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__btn {
+        background-color: $second-color;
+        border: none;
+        margin-top: 44px;
+        box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+        border-radius: 20px;
+        width: 257px;
+        height: 70px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}

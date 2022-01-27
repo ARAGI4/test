@@ -1,0 +1,108 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .partners-block {
+        a {
+            margin-right: 10px;
+        }
+    }
+    .help-block {
+        img {
+            width: 200px;
+        }
+    }
+    .help-wrapper {
+        margin-top: 60px;
+    }
+    .interv-info {
+        margin-left: 65px;
+        &__descr {
+            width: 250px;
+        }
+    }
+    .lorem-info__descr {
+        font-size: 26px;
+        width: 500px;
+    }
+    .ellips3 {
+        left: 420px;
+    }
+    .skills-item {
+        width: 220px;
+    }
+    .request-wrapper {
+        margin-top: 120px;
+    }
+    .contacts-wrapper__item2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contacts-wrapper__item4 {
+        text-align: center;
+        &-plan {
+            display: none;
+        }
+    }
+    .contacts-wrapper__item5 {
+        font-size: 14px;
+        padding: 0;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        position: relative;
+        margin-top: 20px;
+        &__logo {
+            margin-left: 90px;
+        }
+        &__contacts-block {
+            display: none;
+        }
+    }
+    .offer-block {
+        margin-top: 20px;
+        text-align: center;
+        &__info {
+            margin-top: 20px;
+        }
+        &__btn {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            top: 400px;
+        }
+        &__title {
+            margin: 0 auto;
+        }
+        &__img {
+            margin-right: 0;
+            img {
+                position: absolute;
+                width: 600px;
+                height: 445px;
+                left: -180px;
+                margin-top: 150px;
+            }
+        }
+    }
+    .partners-block {
+        margin-top: 400px;
+        div {
+            text-align: center;
+        }
+        .slick-prev, .slick-next {
+            border: none;
+            background-color: $main-color;
+            img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
